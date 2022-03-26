@@ -97,7 +97,6 @@ h1, h2, h3, h4, h5, h6, {
 }
 
 .navbar {
-  text-decoration:none;
   position: absolute;
   right: 50%;
   left: 40%;
@@ -105,6 +104,28 @@ h1, h2, h3, h4, h5, h6, {
   color:#f8f9fa;
   flex-direction: row;
   word-spacing: 50px;
+  text-decoration:none;
+  text-decoration-color:#f8f9fa;
+}
+
+.serviceslink:hover {
+  background-color:#fed136;
+}
+
+.portfoliolink:hover {
+ background-color:#fed136;
+}
+
+.aboutlink:hover {
+ background-color:#fed136;
+}
+
+.teamlink:hover {
+ background-color:#fed136;
+}
+
+.contactlink:hover {
+ background-color:#fed136;
 }
 
 .masthead-subheading {
@@ -174,13 +195,14 @@ button {
   position: absolute;
   border: none;
   padding: 15px 22px;
-  text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
   top: 85%;
   left: 10%;
   right: 10%;
   justify-content: center;
+  text-decoration: none;
+  text-decoration-color:#212529;
 }
 
 .servicesheader {
