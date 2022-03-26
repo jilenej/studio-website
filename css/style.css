@@ -198,11 +198,11 @@ button {
   margin: 4px 2px;
   cursor: pointer;
   top: 85%;
-  left: 10%;
-  right: 10%;
+  left: 40%;
   justify-content: center;
   text-decoration: none;
   text-decoration-color:#212529;
+  width: 20%;
 }
 
 .servicesheader {
