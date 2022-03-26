@@ -1,0 +1,241 @@
+/* CSS Document */
+@charset "UTF-8";
+
+h1, h2, h3, h4, h5, h6, {
+  font-family:'Montserrat', sans-serif;
+}
+
+  h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size:100px;
+    color:#f8f9fa;
+  }
+
+  h2 {
+      font-family: 'Montserrat';
+      font-style: italic;
+      font-weight: 600;
+      font-size:40px;
+      color:#fed136;
+
+    }
+
+    h3 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size:30px;
+        color:#fed136;
+      }
+
+
+    h4 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size:20px;
+        color:#f8f9fa;
+      }
+
+    h5 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size:30px;
+        color:black;
+      }
+
+    h6 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size:20px;
+        color:#212529;
+      }
+
+
+    header, nav {
+        display: flex;
+      }
+
+      nav ul {
+        display: flex;
+        list-style-type:none;
+
+      }
+
+    nav a {
+
+        text-decoration:none;
+
+        top: 8px;
+        right: 30%;
+        left: 50%;
+        text-align: center:
+        color:#f8f9fa;
+        flex-direction: row;
+        font-family: 'Montserrat';
+        font-style: normal;
+	      padding-top:20px;
+	      padding-bottom:20px;
+	      display:block;
+	      padding-left:30px;
+	      padding-right:30px;
+
+      }
+
+.navhome {
+  text-decoration:none;
+  position: absolute;
+  left: 10%;
+  top: 8px;
+  text-align: right;
+  color:#fed136;
+  display: flex;
+}
+
+.navbar {
+  text-decoration:none;
+  position: absolute;
+
+  right: 50%;
+  left: 40%;
+  text-align: center:
+  color:#f8f9fa;
+  flex-direction: row;
+  word-spacing: 50px;
+}
+
+.masthead-subheading {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  right: 10%;
+  justify-content: center;
+  color:#f8f9fa;
+  flex-wrap: nowrap;
+  text-align: center;
+
+}
+
+.masthead-heading {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  right: 10%;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+
+
+section:nth-child(1) {
+  background-size:auto;
+  background-position: center;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  display: flex;
+}
+
+.services {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+body {
+  background-color:white;
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  color:#212529;
+
+}
+
+button {
+
+  text-align:center;
+  background-color:yellow;
+  color:#212529;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size:20px;
+  font-weight:bold;
+  position: absolute;
+  border: none;
+  color: black;
+  padding: 15px 22px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  top: 85%;
+  left: 10%;
+  right: 10%;
+  justify-content: center;
+
+
+
+}
+
+main {
+    max-width:960px;
+    width:90%;
+    margin:0 auto;
+    display:flex;
+    flex-wrap:wrap;
+
+}
+
+main div {
+  flex:1;
+
+}
+
+
+
+
+.services {
+  text-align: center;
+  color:black;
+  padding:30px;
+  margin: auto;
+  color:gray;
+  max-width:960px;
+
+}
+
+section div {
+
+  display:flex;
+  justify-content: center;
+  width:100%;
+}
+
+
+
+footer {
+  color:black;
+
+
+}
+
+.Copyright {
+  text-align: left;
+  color:black;
+}
+
+.PrivacyTerms {
+  text-align: right;
+  color:yellow;
+}
