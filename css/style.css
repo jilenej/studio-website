@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6, {
         font-style: normal;
         font-weight: 600;
         font-size:30px;
-        color:black;
+        color:#212529;
       }
 
     h6 {
@@ -99,7 +99,6 @@ h1, h2, h3, h4, h5, h6, {
 .navbar {
   text-decoration:none;
   position: absolute;
-
   right: 50%;
   left: 40%;
   text-align: center:
@@ -156,7 +155,7 @@ section:nth-child(1) {
 
 
 body {
-  background-color:white;
+  background-color:#f8f9fa;
   font-family: 'Roboto', sans-serif;
   display: block;
   color:#212529;
@@ -166,7 +165,7 @@ body {
 button {
 
   text-align:center;
-  background-color:yellow;
+  background-color:#fed136;
   color:#212529;
   font-family: 'Montserrat';
   font-style: normal;
@@ -174,7 +173,6 @@ button {
   font-weight:bold;
   position: absolute;
   border: none;
-  color: black;
   padding: 15px 22px;
   text-decoration: none;
   margin: 4px 2px;
@@ -207,7 +205,7 @@ main div {
 
 .services {
   text-align: center;
-  color:black;
+  color:#212529;
   padding:30px;
   margin: auto;
   color:gray;
@@ -225,17 +223,17 @@ section div {
 
 
 footer {
-  color:black;
+  color:#212529;
 
 
 }
 
 .Copyright {
   text-align: left;
-  color:black;
+  color:#212529;
 }
 
 .PrivacyTerms {
   text-align: right;
-  color:yellow;
+  color:#fed136;
 }
