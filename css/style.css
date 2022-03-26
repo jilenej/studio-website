@@ -181,45 +181,36 @@ button {
   left: 10%;
   right: 10%;
   justify-content: center;
-
-
-
 }
 
-main {
-    max-width:960px;
-    width:90%;
-    margin:0 auto;
-    display:flex;
-    flex-wrap:wrap;
+.servicesheader {
 
-}
-
-main div {
-  flex:1;
-
-}
-
-
-
-
-.services {
+  color:#212529;
+  padding:50px;
   text-align: center;
+  color:gray;
+  margin:0 auto;
+  width:100%;
+  justify-content: center;
+}
+
+#services {
+
   color:#212529;
   padding:30px;
-  margin: auto;
-  color:gray;
-  max-width:960px;
-
-}
-
-section div {
-
-  display:flex;
+  text-align: center;
+  display: flex;
   justify-content: center;
-  width:100%;
+  margin:0 auto;
+
 }
 
+
+main {
+  flex:1;
+  flex-wrap: wrap;
+
+}
 
 
 footer {
