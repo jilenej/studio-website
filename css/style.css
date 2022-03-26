@@ -224,6 +224,9 @@ section div {
 
 footer {
   color:#212529;
+  display:flex;
+  justify-content: space-between;
+  width:100%;
 
 
 }
