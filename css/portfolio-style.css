@@ -118,8 +118,9 @@ body {
   background-color:white;
   font-family: 'Roboto',
   color:#gray;
-  font-size: 30px;
+  font-size: 20px;
   font-style: italic;
+  text-align: center;
 
 }
 
@@ -149,6 +150,27 @@ body {
   display: flex;
   margin:0 auto;
   font-style: italic;
+
+}
+
+.img-fluid {
+
+    height: 100px;
+    padding: 100px;
+    width: 50%;
+    object-fit: cover;
+    width:230px;
+    height:230px;
+
+}
+
+main {
+  flex:1;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  display:  flex;
+  text-align: center;
+  justify-content: center;
 
 }
 
