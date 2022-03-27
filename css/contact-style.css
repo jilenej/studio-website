@@ -1,0 +1,190 @@
+/* Contact CSS Document */
+@charset "UTF-8";
+
+h1, h2, h3, h4, h5, h6, {
+  font-family:'Montserrat', sans-serif;
+}
+
+  h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size:100px;
+    color:#f8f9fa;
+  }
+
+  h2 {
+      font-family: 'Montserrat';
+      font-style: italic;
+      font-weight: 600;
+      font-size:40px;
+      color:#fed136;
+
+    }
+
+    h3 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size:30px;
+        color:#fed136;
+      }
+
+
+    h4 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size:20px;
+        color:#fed136;
+      }
+
+    h5 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size:30px;
+        color:#212529;
+      }
+
+    h6 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size:20px;
+        color: #f8f9fa;
+      }
+
+      header {
+          display:flex;
+          justify-content:space-between;
+          padding:0 20px;
+          position:sticky;
+          top:0;
+          background-color:#212529;
+    }
+
+    header nav ul {
+      display:flex;
+      justify-content:space-between;
+      list-style-type:none;
+    }
+
+    header nav a {
+      text-decoration:none;
+      display:block;
+      padding:25px 20px;
+      color:#f8f9fa;
+      font-size:20px;
+      font-family: 'Montserrat';
+      font-style: normal;
+    }
+
+    .navhome {
+      text-decoration:none;
+      position: absolute;
+      left: 80%;
+      top: 13px;
+      text-align: right;
+      color:#fed136;
+      display: flex;
+    }
+
+.serviceslink:hover {
+  background-color:#fed136;
+}
+
+.portfoliolink:hover {
+ background-color:#fed136;
+}
+
+.aboutlink:hover {
+ background-color:#fed136;
+}
+
+.teamlink:hover {
+ background-color:#fed136;
+}
+
+.contactlink:hover {
+ background-color:#fed136;
+}
+
+.masthead-heading {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  right: 10%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.masthead-subheading {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  right: 10%;
+  justify-content: center;
+  color:#f8f9fa;
+  flex-wrap: nowrap;
+  text-align: center;
+  font-family: 'Roboto',
+  color:#f8f9fa;
+  font-size: 30px;
+  font-style: italic;
+}
+
+button {
+
+  text-align:center;
+  background-color:#fed136;
+  color:#212529;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size:20px;
+  font-weight:bold;
+  position: absolute;
+  border: none;
+  padding: 15px 22px;
+  margin: 4px 2px;
+  cursor: pointer;
+  top: 130%;
+  left: 40%;
+  justify-content: center;
+  text-decoration: none;
+  text-decoration-color:#212529;
+  width: 20%;
+}
+
+#contactform {
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  justify-content: center;
+  flex-wrap: nowrap;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-style: normal;
+}
+
+footer {
+  color:#212529;
+  display:flex;
+  justify-content: space-between;
+  width:100%;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-style: normal;
+
+}
+
+.Copyright {
+  text-align: left;
+  color:#212529;
+}
+
+.PrivacyTerms {
+  text-align: right;
+  color:#fed136;
+}
