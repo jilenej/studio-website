@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6, {
   h5 {
       font-family: 'Montserrat';
       font-style: normal;
-      font-weight: 600;
+      font-weight: 800;
       font-size:30px;
       color:#212529;
     }
@@ -115,8 +115,9 @@ body {
   background-color:white;
   font-family: 'Roboto',
   color:#gray;
-  font-size: 30px;
+  font-size: 20px;
   font-style: italic;
+  text-align: center;
 
 }
 
@@ -140,6 +141,15 @@ body {
 
 }
 
+.teamthumbnails {
+  color:#212529;
+  padding:30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin:0 auto;
+}
+
 .thumbnailinfo {
   color: gray;
   text-align: center;
@@ -148,6 +158,37 @@ body {
   font-style: italic;
 
 }
+
+.rounded-circle {
+  border-radius: 100%!important;
+  border-top-left-radius: 100%!important;
+  border-top-right-radius: 100% !important;
+  border-bottom-right-radius: 100% !important;
+  border-bottom-left-radius: 100%!important;
+
+
+}
+
+.img-fluid {
+
+    height: 200px;
+    padding: 100px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: thick;
+    width: 50%;
+
+}
+
+
+
+
+main {
+  flex:1;
+  flex-wrap: wrap;
+
+}
+
 
 .bottombody {
 
