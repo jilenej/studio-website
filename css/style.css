@@ -34,9 +34,9 @@ h1, h2, h3, h4, h5, h6, {
     h4 {
         font-family: 'Montserrat';
         font-style: normal;
-        font-weight: 600;
-        font-size:20px;
-        color:#f8f9fa;
+        font-weight: 800;
+        font-size:30px;
+        color:#fed136;
       }
 
     h5 {
@@ -56,57 +56,31 @@ h1, h2, h3, h4, h5, h6, {
       }
 
 
-    header, nav {
-        display: flex;
-      }
+      header {
+          display:flex;
+          justify-content:space-between;
+          padding:0 20px;
+          position:sticky;
+          top:0;
+          background-color:#252526;
+          background-image: url("https://fit-front-end-course.s3.amazonaws.com/header-bg-jilene.jpg");
+    }
 
-      nav ul {
-        display: flex;
-        list-style-type:none;
+    header nav ul {
+      display:flex;
+      justify-content:space-between;
+      list-style-type:none;
+    }
 
-      }
-
-    nav a {
-
-        text-decoration:none;
-
-        top: 8px;
-        right: 30%;
-        left: 50%;
-        text-align: center:
-        color:#f8f9fa;
-        flex-direction: row;
-        font-family: 'Montserrat';
-        font-style: normal;
-	      padding-top:20px;
-	      padding-bottom:20px;
-	      display:block;
-	      padding-left:30px;
-	      padding-right:30px;
-
-      }
-
-.navhome {
-  text-decoration:none;
-  position: absolute;
-  left: 10%;
-  top: 8px;
-  text-align: right;
-  color:#fed136;
-  display: flex;
-}
-
-.navbar {
-  position: absolute;
-  right: 50%;
-  left: 40%;
-  text-align: center:
-  color:#f8f9fa;
-  flex-direction: row;
-  word-spacing: 50px;
-  text-decoration:none;
-  text-decoration-color:#f8f9fa;
-}
+    header nav a {
+      text-decoration:none;
+      display:block;
+      padding:25px 20px;
+      color:#f8f9fa;
+      font-size:20px;
+      font-family: 'Montserrat';
+      font-style: normal;
+    }
 
 .serviceslink:hover {
   background-color:#fed136;
