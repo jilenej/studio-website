@@ -91,6 +91,26 @@ header nav a {
 
 }
 
+.serviceslink:hover {
+  background-color:#fed136;
+}
+
+.portfoliolink:hover {
+ background-color:#fed136;
+}
+
+.aboutlink:hover {
+ background-color:#fed136;
+}
+
+.teamlink:hover {
+ background-color:#fed136;
+}
+
+.contactlink:hover {
+ background-color:#fed136;
+}
+
 body {
   background-color:white;
   font-family: 'Roboto',
