@@ -80,6 +80,17 @@ header nav a {
   font-style: normal;
 }
 
+.navhome {
+  text-decoration:none;
+  position: absolute;
+  left: 80%;
+  top: 25px;
+  text-align: right;
+  color:#fed136;
+  display: flex;
+
+}
+
 body {
   background-color:white;
   font-family: 'Roboto',
