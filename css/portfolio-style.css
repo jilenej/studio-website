@@ -62,12 +62,14 @@ h1, h2, h3, h4, h5, h6, {
       position:sticky;
       top:0;
       background-color:#212529;
+
 }
 
 header nav ul {
   display:flex;
   justify-content:space-between;
   list-style-type:none;
+
 }
 
 header nav a {
@@ -78,6 +80,18 @@ header nav a {
   font-size:20px;
   font-family: 'Montserrat';
   font-style: normal;
+
+}
+
+.navhome {
+  text-decoration:none;
+  position: absolute;
+  left: 80%;
+  top: 25px;
+  text-align: right;
+  color:#fed136;
+  display: flex;
+
 }
 
 body {
